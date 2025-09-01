@@ -8,14 +8,14 @@ export function Education() {
       title: "2021 – 2025",
       content: (
         <div>
-          <h3 className="text-lg md:text-xl lg:text-4xl font-bold text-white mb-2">
+          <h3 className="text-lg md:text-xl lg:text-4xl font-bold dark:text-white text-black mb-2">
             VIT-AP University
           </h3>
-          <p className="text-sm md:text-base text-neutral-300 mb-1">
+          <p className="text-sm md:text-base  dark:text-neutral-300 text-black mb-1">
             B.Tech in Computer Science & Engineering (AI & ML)
           </p>
-          <p className="text-sm md:text-base text-neutral-300">
-            CGPA: <span className="font-semibold text-white">9.09 / 10</span>
+          <p className="text-sm md:text-base dark:text-neutral-300 text-black">
+            CGPA: <span className="font-semibold dark:text-white text-black">9.09 / 10</span>
           </p>
         </div>
       ),
@@ -24,15 +24,15 @@ export function Education() {
       title: "2019 – 2021",
       content: (
         <div>
-          <h3 className="text-lg md:text-xl lg:text-4xl font-bold text-white mb-2">
+          <h3 className="text-lg md:text-xl lg:text-4xl font-bold dark:text-white text-black mb-2">
             Sri Chaitanya Educational Institutions
           </h3>
-          <p className="text-sm md:text-base text-neutral-300 mb-1">
+          <p className="text-sm md:text-base dark:text-neutral-300 text-black mb-1">
             Intermediate – MPC Stream
           </p>
-          <p className="text-sm md:text-base text-neutral-300">
+          <p className="text-sm md:text-base dark:text-neutral-300 text-black">
             Percentage:{" "}
-            <span className="font-semibold text-white">93.6%</span>
+            <span className="font-semibold dark:text-white text-black">93.6%</span>
           </p>
         </div>
       ),
@@ -41,14 +41,14 @@ export function Education() {
       title: "2018 – 2019",
       content: (
         <div>
-          <h3 className="text-lg md:text-xl lg:text-4xl font-bold text-white mb-2">
+          <h3 className="text-lg md:text-xl lg:text-4xl font-bold dark:text-white text-black mb-2">
             Dr. KKR’s Gowtham School
           </h3>
-          <p className="text-sm md:text-base text-neutral-300 mb-1">
+          <p className="text-sm md:text-base dark:text-neutral-300 text-black mb-1">
             Secondary School Education
           </p>
-          <p className="text-sm md:text-base text-neutral-300">
-            Percentage: <span className="font-semibold text-white">98%</span>
+          <p className="text-sm md:text-base dark:text-neutral-300 text-black">
+            Percentage: <span className="font-semibold dark:text-white text-black">98%</span>
           </p>
         </div>
       ),

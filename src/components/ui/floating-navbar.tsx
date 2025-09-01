@@ -39,7 +39,7 @@ export const FloatingNav: React.FC<FloatingNavProps> = ({ navItems, className })
       <div>
         <a
           href='#contact'
-          className="border text-md font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full hover:bg-white cursor-pointer hover:text-black"
+          className="border text-md font-medium relative border-neutral-200 dark:border-white/[0.2] hover:text-white hover:bg-black dark:text-white px-4 py-2 rounded-full dark:hover:bg-white cursor-pointer dark:hover:text-black"
         >
           <span>Contact Me</span>
           <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent h-px" />

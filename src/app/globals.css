@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap'); */
 @import "tailwindcss";
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
 
 html {
   scroll-behavior: smooth;
@@ -28,11 +30,18 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 .font-roboto {
   font-family: "Roboto Slab", serif;
+}
+
+.font-space {
+  font-family: "Space Grotesk", sans-serif;
+}
+.font-mont{
+  font-family: "Montserrat", sans-serif;
 }
 
 body{
@@ -41,8 +50,6 @@ body{
 .glow-text {
   text-shadow: 0 0 3px rgba(255,255,255,0.5), 0 0 10px rgba(255,255,255,0.3);
 }
-
-@import "tailwindcss";
 
 @theme inline {
   --animate-aurora: aurora 60s linear infinite;
@@ -59,9 +66,3 @@ body{
     }
   }
 }
-
-
-
-
-
- 

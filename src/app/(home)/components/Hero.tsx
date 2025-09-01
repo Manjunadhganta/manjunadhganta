@@ -25,7 +25,7 @@ export function Hero() {
       <p className="relative z-20 py-4 text-center text-sm text-neutral-200 md:text-3xl">
         👋, My name is Manjunadh Ganta
       </p>
-      <h1 style={{ transform: "scaleY(1.3)", transformOrigin: "center" }} className="relative font-roboto font-extrabold z-20 text-center text-5xl text-white md:text-8xl lg:text-9xl tracking-tighter glow-text">
+      <h1 style={{ transform: "scaleY(1.3)", transformOrigin: "center"}} className="relative font-roboto font-bold z-20 text-center text-5xl text-white md:text-8xl lg:text-9xl tracking-tighter glow-text">
         Web Developer<br />
         & Software Engineer
       </h1>
@@ -53,3 +53,5 @@ export function Hero() {
     </div>
   );
 }
+
+

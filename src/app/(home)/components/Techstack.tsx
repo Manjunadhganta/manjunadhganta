@@ -21,14 +21,14 @@ const App = () => {
         }
       `}</style>
 
-      <section id='tools' className="py-16 sm:py-20 bg-white dark:bg-black text-center scroll-mt-16 md:scroll-mt-20">
+      <section id='tools' className="py-16 sm:py-20 bg-slate-200 dark:bg-black text-center scroll-mt-16 md:scroll-mt-20">
         <h2 className="text-3xl sm:text-2xl font-semibold mb-10 text-gray-800 dark:text-white">
           Tech Stack
         </h2>
 
         <div className="overflow-hidden w-full relative max-w-5xl mx-auto select-none">
           {/* Left gradient fade */}
-          <div className="absolute left-0 top-0 h-full w-20 z-10 pointer-events-none bg-gradient-to-r from-white dark:from-black to-transparent" />
+          <div className="absolute left-0 top-0 h-full w-20 z-10 pointer-events-none bg-gradient-to-r dark:from-black to-transparent" />
 
           {/* Marquee area */}
           <div
@@ -41,7 +41,7 @@ const App = () => {
                   key={index}
                   src={`/${tech}.svg`}
                   alt={tech}
-                  className="h-10 w-auto mx-6 filter invert"
+                  className="h-10 w-auto mx-6 filter dark:invert"
                   draggable={false}
                 />
               ))}
@@ -49,7 +49,7 @@ const App = () => {
           </div>
 
           {/* Right gradient fade */}
-          <div className="absolute right-0 top-0 h-full w-20 md:w-40 z-10 pointer-events-none bg-gradient-to-l from-white dark:from-black to-transparent" />
+          <div className="absolute right-0 top-0 h-full w-20 md:w-40 z-10 pointer-events-none bg-gradient-to-l dark:from-black to-transparent" />
         </div>
       </section>
     </>
