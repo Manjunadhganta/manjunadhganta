@@ -46,7 +46,7 @@ const projectData = [
   },
   {
     title: "Stop Watch",
-    imageSrc: "/Stopwatch.png",
+    imageSrc: "/stopwatch.png",
     githubUrl: "https://github.com/Manjunadhganta/stop-watch"
   },
   {
