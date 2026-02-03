@@ -37,7 +37,7 @@ export default function Example() {
                         </svg>
                     </a>
                 </div>
-                <p className="mt-8 text-center">Copyright © {new Date().getFullYear()} <a href="https://github.com/Manjunadhganta">Manjunadh Ganta</a>. All rights reservered.</p>
+                <p className="mt-8 text-center">Copyright © {new Date().getFullYear()} <a href="https://github.com/Manjunadhganta">Manjunadh Gant</a>. All rights reservered.</p>
             </footer>
         </>
     );
